@@ -1,10 +1,12 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from "vue-router";
+import Header from './components/Header.vue'
 </script>
 
 <template>
 <div class="container">
-<h2>Hello Wallace</h2>
+<Header title="Task Tracker"/>
+
 
 </div>
   
