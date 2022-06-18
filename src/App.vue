@@ -3,9 +3,12 @@ import { RouterLink, RouterView } from "vue-router";
 </script>
 
 <template>
-  <h2>Hello Wallace</h2>
+<div class="container">
+<h2>Hello Wallace</h2>
 
-  <RouterView />
+</div>
+  
+
 </template>
 
 <style>
@@ -28,7 +31,11 @@ header {
   display: block;
   margin: 0 auto 2rem;
 }
-
+.container{
+  background-color: blue;
+  color :white;
+  font :italic;
+}
 a,
 .green {
   text-decoration: none;
