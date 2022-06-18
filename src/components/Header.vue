@@ -7,7 +7,10 @@
 <script lang="ts">
 export default{
     name:'Header',
-    props:['title']
+    props:{
+        title:String,
+
+    },
 }
 </script>
 

@@ -1,11 +1,13 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from "vue-router";
 import Header from './components/Header.vue'
+import Button from './components/Button.vue'
 </script>
 
 <template>
 <div class="container">
 <Header title="Task Tracker"/>
+<Button/>
 
 
 </div>
