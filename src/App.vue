@@ -7,8 +7,13 @@ import Button from './components/Button.vue'
 <template>
 <div class="container">
 <Header title="Task Tracker"/>
-<Button/>
+<div class="row">
+<div class="col-6"><Button title="Add Task"/></div>
+<div class="col-6"><Button title="Remove  Task"/></div>
 
+
+
+</div>
 
 </div>
   
@@ -36,7 +41,7 @@ header {
   margin: 0 auto 2rem;
 }
 .container{
-  background-color: blue;
+ 
   color :white;
   font :italic;
 }
