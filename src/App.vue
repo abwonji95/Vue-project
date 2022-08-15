@@ -12,7 +12,7 @@ import Counter from './components/Counter.vue'
 <div class="row">
 <div class="col-6"><Button title="Add Task"/></div>
 <div class="col-6"><Button title="Remove  Task"/></div>
-<Counter age="10" name="Rabbit"/>
+<Counter age=10 name="Rabbit"/>
 
 
 
