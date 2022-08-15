@@ -2,6 +2,8 @@
 import { RouterLink, RouterView } from "vue-router";
 import Header from './components/Header.vue'
 import Button from './components/Button.vue'
+import Counter from './components/Counter.vue'
+
 </script>
 
 <template>
@@ -10,6 +12,7 @@ import Button from './components/Button.vue'
 <div class="row">
 <div class="col-6"><Button title="Add Task"/></div>
 <div class="col-6"><Button title="Remove  Task"/></div>
+<Counter age="10" name="Rabbit"/>
 
 
 
