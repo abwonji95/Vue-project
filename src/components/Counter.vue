@@ -8,7 +8,7 @@ export default{
     name:'Counter',
     props:{
         name:String,
-        age:Number,
+        age:Number
 
     },
 }
@@ -18,7 +18,7 @@ export default{
 <template>
 <div class="div">
     <h1>Name : {{name}}</h1>
-    <h2>age : {{age.count}}</h2>
+    <h2>Age : {{age}}</h2>
 </div>
 
 </template>

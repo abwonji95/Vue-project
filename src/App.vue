@@ -4,6 +4,7 @@ import Header from './components/Header.vue'
 import Button from './components/Button.vue'
 import Counter from './components/Counter.vue'
 
+
 </script>
 
 <template>

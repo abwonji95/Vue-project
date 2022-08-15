@@ -16,9 +16,12 @@ export default {
 <style>
 .btn{
     font-size:14px;
-    height:40px;
-    width:60px;
-    color:#34125c
+    height:70px;
+    width:160px;
+    color:#ffffff;
+    border-radius:10px;
+    background-color: black;
+    padding: 2em;
 }
 
 </style>
